@@ -1,6 +1,6 @@
 # Real Estate App
 
-Welcome to the Real Estate App repository! This project is a full-fledged real estate application that allows users to search, list, and manage property listings. It includes functionalities such as user authentication, profile management, and saving favorite properties. This app is built using the MERN stack (MongoDB, Express, React, Node.js) and Tailwind CSS.
+Welcome to the Real Estate App repository! This project is a full-fledged real estate application that allows users to search, list, and manage property listings. It includes functionalities such as user authentication, profile management, and saving favorite properties. This app is built using the MERN stack (MongoDB, Express, React, Node.js) and SCSS CSS.
 
 ## Table of Contents
 
@@ -17,11 +17,11 @@ Welcome to the Real Estate App repository! This project is a full-fledged real e
 - Create, read, update, and delete property listings
 - Save and unsave favorite properties
 - Real-time notifications for new listings
-- Responsive design with Tailwind CSS
+- Responsive design with SCSS CSS
 
 ## Technologies Used
 
-- **Frontend**: React, Tailwind CSS, React Router
+- **Frontend**: React, SCSS CSS, React Router
 - **Backend**: Node.js, Express
 - **Database**: MongoDB, Prisma ORM
 - **Authentication**: JSON Web Tokens (JWT), bcrypt
