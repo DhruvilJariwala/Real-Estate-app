@@ -2,7 +2,7 @@ import { Server } from "socket.io";
 
 const io = new Server({
   cors: {
-    origin: "https://real-estate-app-green-three.vercel.app",
+    origin: "http://localhost:5173",
   },
 });
 
@@ -30,7 +30,6 @@ io.on("connection", (socket) => {
 
   socket.on("sendMessage", ({ receiverId, data }) => {
     const receiver = getUser(receiverId);
-    io.to(receiver.socketId).emit("getMessage", data);
   });
 
   socket.on("disconnect", () => {
